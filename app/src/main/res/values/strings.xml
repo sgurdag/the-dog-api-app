@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">The Dog App</string>
+
+    <string name="generic_error">Oops, Something went wrong!</string>
+</resources>
