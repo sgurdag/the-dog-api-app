@@ -10,6 +10,8 @@ import javax.inject.Inject
 
 open class TheDogApiClient @Inject constructor() : ApiClient() {
 
+    // the keys and links will be moved in NDK in hashed format.
+
     private val apiKey = "live_HIVhTepMoMiUQbOgB3a483mATo8r8N9pWCAaT20mLBmIMnChublpo9yRBmZwruGw"
     private val timestamp = System.currentTimeMillis().toString()
 
